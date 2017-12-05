@@ -7,9 +7,10 @@ gem 'spring', :group => :development
 
 gem 'listen'
 
-gem 'moped', github: 'mongoid/moped'
 gem 'mongoid'
+gem 'bson'
 gem 'bson_ext'
+gem 'moped'
 
 # Serializer for JSON
 gem 'active_model_serializers'
