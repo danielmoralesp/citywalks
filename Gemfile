@@ -7,16 +7,15 @@ gem 'spring', :group => :development
 
 gem 'listen'
 
-gem 'mongoid'
-gem 'bson'
-gem 'bson_ext'
-gem 'moped'
+gem 'mongoid', '~> 6.1.0'
 
 # Serializer for JSON
-gem 'active_model_serializers'
+gem 'active_model_serializers', '~>0.9.4'
 
 # CORS
 gem 'rack-cors', :require => 'rack/cors'
+
+gem 'responders'
 
 
 
