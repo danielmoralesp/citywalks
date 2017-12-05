@@ -3,9 +3,19 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 5.1.4'
 
-gem 'rails-api'
-
 gem 'spring', :group => :development
+
+gem 'listen'
+
+gem 'moped', github: 'mongoid/moped'
+gem 'mongoid'
+gem 'bson_ext'
+
+# Serializer for JSON
+gem 'active_model_serializers'
+
+# CORS
+gem 'rack-cors', :require => 'rack/cors'
 
 
 
